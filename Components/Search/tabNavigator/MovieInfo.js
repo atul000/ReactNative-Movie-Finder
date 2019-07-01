@@ -1,9 +1,7 @@
 import React, { Component } from 'react';
+import { StyleSheet, View } from 'react-native';
 import {
-  StyleSheet, View, Keyboard, Alert,
-} from 'react-native';
-import {
-  Container, Header, Content, Card, CardItem, Text, Body, Image, Button,
+  Card, CardItem, Text, Body, Button,
 } from 'native-base';
 
 export default class MovieInfo extends Component {

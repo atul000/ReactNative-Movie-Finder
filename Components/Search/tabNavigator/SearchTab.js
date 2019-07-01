@@ -16,8 +16,7 @@ export default class SeatchTab extends Component {
     Keyboard.dismiss();
     const beerName = this.state.searchBeer.toLowerCase();
 
-    // const api_key = '484cba9c7bd2cef1f756516ce6b2d251';
-    const api_key = '9f17a3d56c41d3a62c659d5427333d4f';
+    const api_key = '__YOUR__API__KEY';
     const query = `https://api.themoviedb.org/3/search/movie?api_key=${api_key}&query=${beerName}`;
 
     axios

@@ -19,7 +19,7 @@ class MoreInfo extends Component {
     const id = this.props.navigation.getParam('itemId');
     const imagePath = this.props.navigation.getParam('img');
 
-    const query = `https://api.themoviedb.org/3/movie/${id}?api_key=9f17a3d56c41d3a62c659d5427333d4f`;
+    const query = `https://api.themoviedb.org/3/movie/${id}?api_key=____YOUR___API____KEY`;
     const query1 = `https://image.tmdb.org/t/p/w500${imagePath}`;
 
     info = async () => {
